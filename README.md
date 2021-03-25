@@ -1,3 +1,5 @@
+This fork of [auth0/jwt-decode](https://github.com/auth0/jwt-decode) allows tokens with non-json payloads to be parsed. Why would you ever do this? Isn't JSON in the name? Yeah, but sometimes APIs are dumb.
+
 ## **jwt-decode** is a small browser library that helps decoding JWTs token which are Base64Url encoded.
 
 **IMPORTANT:** This library doesn't validate the token, any well formed JWT can be decoded. You should validate the token in your server-side logic by using something like [express-jwt](https://github.com/auth0/express-jwt), [koa-jwt](https://github.com/stiang/koa-jwt), [Owin Bearer JWT](https://github.com/michaelnoonan/Auth0-Owin-JwtBearerAuthentication), etc.
