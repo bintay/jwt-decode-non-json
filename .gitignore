@@ -18,3 +18,5 @@ npm-debug.log
 node_modules
 build/*
 !build/jwt-decode-non-json.js
+
+.DS_Store
